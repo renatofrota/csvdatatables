@@ -229,7 +229,7 @@ alreadyReady = true;
 
     // replace strings passed in $search arg with strings passed in $replace arg
     if ($atts['search']) {
-        $csvdt_ratelist = preg_replace(explode(",",$atts['search']),explode(",",$atts['replace']),$csvdt_ratelist);
+        $csvdt_ratelist = str_replace(explode(",",$atts['search']),explode(",",$atts['replace']),$csvdt_ratelist);
     }
 
     // explode rates to an array of items
