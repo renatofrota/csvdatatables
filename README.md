@@ -1,10 +1,12 @@
 # CSV to DataTable Converter
-Contributors: renatofrota
-Requires at least: 4.8.2
-Tested up to: 4.8.2
-Stable tag: 0.1.0
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+- Contributors: renatofrota
+- Requires at least: 4.8.2
+- Tested up to: 4.8.2
+- Stable tag: 0.1.0
+- License: GPLv3 or later
+- License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+## Description
 
 This plugins creates a shortcode csvdatatables capable of convert CSV files to a DataTables and display anywhere on your WordPress website.
 
