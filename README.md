@@ -51,7 +51,7 @@ Pass another filename with `file` argument:
 
 ## Changelog
 
-= 1.0 =
+### 1.0 (2017-10-30)
 * Initial release
 
 ## Donate
