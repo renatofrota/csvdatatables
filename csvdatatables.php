@@ -210,7 +210,7 @@ alreadyReady = true;
         var table = jQuery(\'#table'.$atts['name'].'\').removeClass(\'hidden\').DataTable();
         table.order('.$atts['ordercol'].', \''.$atts['order'].'\');
         table.draw();
-        jQuery(\'#tableLoading\').addClass(\'hidden\');
+        jQuery(\'#tableLoading'.$atts['name'].'\').addClass(\'hidden\');
     });
 </script>
 
@@ -277,7 +277,7 @@ alreadyReady = true;
     $csvdt_return .= '
         </tbody>
     </table>
-    <div class="text-center" id="tableLoading">
+    <div class="text-center" id="tableLoading'.$atts['name'].'">
         <p><i class="fa fa-spinner fa-spin"></i> '.$csvdt_lang['tableloading'].'</p>
     </div>
 </div>';
