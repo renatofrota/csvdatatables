@@ -81,7 +81,7 @@ jQuery(".view-filter-btns a").click(function(e) {
     if (jQuery(this).hasClass(\'active\')) {
             jQuery(this).removeClass(\'active\');
             jQuery(this).find("i.fa.fa-dot-circle-o").removeClass(\'fa-dot-circle-o\').addClass(\'fa-circle-o\');
-        dataTable.column('.$atts['name'].').search(\'\').draw();
+        dataTable.column('.$atts['filtercol'].').search(\'\').draw();
     } else {
             jQuery(\'.view-filter-btns .list-group-item\').removeClass(\'active\');
             jQuery(\'i.fa.fa-dot-circle-o\').removeClass(\'fa-dot-circle-o\').addClass(\'fa-circle-o\');
