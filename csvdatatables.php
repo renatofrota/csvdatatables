@@ -25,6 +25,8 @@ function csvdt_display_table( $atts ) {
             'striplines' => '',
             'stripheaders' => '',
             'headers' => '',
+            'search' => '',
+            'replace' => '',
             'ordercol' => "0",
             'order' => "asc",
             'nosortcols' => "",

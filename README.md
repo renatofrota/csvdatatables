@@ -37,6 +37,8 @@ Pass another filename with `file` argument:
 - `striplines`: array with a comma separated list of strings, lines containing them will be stripped off
 - `stripheaders`: if set true, first line of CSV file will be stripped out (next line will be considered a header unless you pass `headers`)
 - `headers`: comma separated list of your custom column headers
+- `search`:  comma separated list of strings to search
+- `replace`: comma separated list of strings to replace
 - `ordercol`: column ID to sort data when page loads (defaults to `0`, i.e.: first column)
 - `order`: asc or desc (defaults asc)
 - `nosortcols`: set true to disable sorting
